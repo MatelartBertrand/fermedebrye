@@ -1,0 +1,89 @@
+.btn {
+  font-weight: bold;
+  padding: 15px 25px;
+  margin: 10px 10px;
+  transition: all 180ms ease;
+  border-radius: 3px;
+  width: 100%;
+  &:hover {
+    box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+  }
+  &:focus,
+  &:active,
+  &:visited {
+    outline: none;
+  }
+}
+
+
+.btn-green {
+  background-color: $green;
+  color: white;
+  &:hover {
+    color: white;
+  }
+  &:focus,
+  &:active,
+  &:visited {
+    color: white;
+  }
+}
+
+
+.btn-black {
+  background-color: $dark-gray;
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.8;
+  }
+  &:focus,
+  &:active,
+  &:visited {
+    color: white;
+  }
+}
+
+
+.btn-default {
+  background-color: $gray;
+  color: white;
+}
+
+.btn-default:hover {
+  color: white;
+  background-color: $gray;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn-red-border {
+  border-color: $red;
+  background-color: none;
+  color: $red;
+  padding: 10px 20px;
+  margin-right: 10px;
+  transition: all 180ms ease;
+}
+
+.btn-red-border:hover {
+  color: white;
+  background-color: $red;
+}
+
+
+.btn-white {
+  background-color: white;
+  color: $gray;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 15px 25px;
+  margin: 10px 10px;
+  transition: all 180ms ease;
+  border-color: $light-gray;
+  min-width: 300px;
+}
+
+.btn-white:hover {
+  color: $red;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

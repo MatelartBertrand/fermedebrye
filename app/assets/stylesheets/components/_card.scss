@@ -1,0 +1,139 @@
+.card-background {
+  background-color: white;
+  -webkit-box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+  box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.card-background:hover {
+  transform: scale(1.02);
+}
+
+.card-background-header {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 150px;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-background-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-background-category {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 10px 5px;
+  margin-right: 10px;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.card-background-description {
+}
+.card-background-description h2 {
+  font-size: 3rem;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+.card-background-description p {
+  font-size: 14px;
+  opacity: 1;
+  font-weight: regular;
+}
+.card-background-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-background-link:hover {
+  opacity: 0.1;
+}
+
+
+.card-background-explication {
+  min-height: 300px;
+  padding: 3rem;
+  text-align: center;
+  color: $gray;
+  -webkit-box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+  box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-dark-gray {
+  background-color: $dark-gray;
+}
+
+
+
+
+
+.border-bottom-red {
+  border-top: 0.7rem solid $red;
+}
+
+.border-bottom-yellow {
+  border-top: 0.7rem solid $yellow;
+}
+
+.border-bottom-blue {
+  border-top: 0.7rem solid $blue;
+}
+
+.border-bottom-orange {
+  border-top: 0.7rem solid $orange;
+}
+
+.border-bottom-green {
+  border-top: 0.7rem solid $green;
+}
+
+.border-bottom-dark-gray {
+  border-top: 0.7rem solid $dark-gray;
+}
+
+
+
+
+
+
+
+
+
+

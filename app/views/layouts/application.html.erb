@@ -3,16 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TODO</title>
-    <%= csrf_meta_tags %>
-    <%= action_cable_meta_tag %>
-    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <title>Fermedebrye</title>
+    <meta name="description" content="Fermedebrye - Exploitation agricole en plein changement">
+    <%= favicon_link_tag 'logo-fdb-circle-black-2.png' %>
+
+    <%= csrf_meta_tags %> <!-- Je ne sais plus ce que c'est -->
+    <%= action_cable_meta_tag %> <!-- Je ne sais plus ce que c'est -->
+    <%= stylesheet_link_tag 'application', media: 'all' %> <!-- Je ne sais plus ce que c'est -->
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Fermedebrye" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="Exploitation agricole en plein changement" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Exploitation agricole en plein changement" />
+    <meta property="og:site_name" content="fermedebrye.com" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Fermedebrye">
+    <meta name="twitter:description" content="Exploitation agricole en plein changement">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image:src" content="">
   </head>
+
   <body>
-    <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
+    <%= render 'shared/navbar' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>
