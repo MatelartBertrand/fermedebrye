@@ -11,6 +11,10 @@
 .footer-links {
   display: flex;
   align-items: center;
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
 }
 .footer-links a {
   color: white;

@@ -1,12 +1,15 @@
 <div class="footer">
   <div class="footer-links">
-    <a href="#"><i class="fa fa-github"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <!-- Logo -->
+    <%= link_to root_path do %>
+      <%= image_tag "logo-fdb-circle-black-2.png", class: "logo" %>
+    <% end %>
   </div>
   <div class="footer-copyright hidden-sm hidden-xs">
-    This website is made with <i class="fa fa-heart"></i> by Bertrand Matelart
+    Ce site est fait avec <i class="fa fa-heart"></i> par Bertrand Matelart
+  </div>
+  <div class="footer-links">
+    <a href="https://www.instagram.com/fermedebrye/" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.facebook.com/fermedebrye/" target="_blank"><i class="fa fa-facebook"></i></a>
   </div>
 </div>
